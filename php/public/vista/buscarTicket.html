@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="buscarTicket.css" type="text/css"/>
+    <script src = "../../../Ajax/buscarUsuario.js"></script>
+
+
+</head>
+<body>
+<section class="sectionContenido">
+    <h2 hidden> CONTENIDO </h2>
+    <form id = "formulario" onsubmit="return buscarTicket()">
+        <fieldset>
+            <div class="logo">
+                <img src="../../../images/reg.png" alt="imagen 11">
+            </div>
+            <legend> BUSCAR TICKET</legend>
+            <label class="labelContacto"> Cedula* </label><br>
+            <input type="text" class = "txtForm" id="cedula" name="cedula" placeholder="Ingrese la cedula...">
+            <div></div>
+            <label class="labelContacto"> Placa Del Coche* </label><br>
+            <input type="text" class = "txtForm" id="placa" name="placa" placeholder="Ingrese la placa...">
+            <div></div>
+            <input type = "button" id = "botonBuscar"  value= "Buscar" onclick=" buscarTicket()">
+            <div id="informacion"></div>
+        </fieldset>
+    </form>
+</section>
+<section>
+    <div class = "divNav">
+        <nav class="navegar">
+            <ul class = "list">
+                <li><a href= "../../../index.html">Inicio </a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+</body>
+</html>

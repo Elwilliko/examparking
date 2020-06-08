@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="buscarUsuario.css" type="text/css"/>
+    <script src = "../../../Ajax/buscarUsuario.js"></script>
+
+
+</head>
+<body>
+<section class="sectionContenido">
+    <h2 hidden> CONTENIDO </h2>
+    <form id = "formulario" onsubmit="return buscarUsuario()">
+        <fieldset>
+            <div class="logo">
+                <img src="../../../images/reg.png" alt="imagen 11">
+            </div>
+            <legend> BUSCAR CLIENTE </legend>
+            <label class="labelContacto"> Cedula* </label><br>
+            <input type="text" class = "txtForm" id="cedula" name="cedula" placeholder="Ingrese la cedula...">
+            <div></div>
+            <input type = "button" id = "buscar"  value= "Aceptar" onclick=" buscarUsuario()">
+            <div id="informacion"></div>
+        </fieldset>
+    </form>
+</section>
+<section>
+    <div class = "divNav">
+        <nav class="navegar">
+            <ul class = "list">
+                <li><a href= "../../../index.html">Inicio </a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+</body>
+</html>

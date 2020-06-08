@@ -1,0 +1,91 @@
+body{
+    background: #343d46;
+}
+
+.foto1 img{ padding: 5px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+
+.sociales{
+    float: right;
+}
+.sociales li{
+    display: inline-block;
+}
+.sociales a{
+    padding: 5px;
+}
+
+.box{
+    display: inline-block;
+}
+
+.container-1 input#search{
+    width: 800px;
+    height: 40px;
+    background: #ebecf0;
+    border: none;
+    font-size: 10pt;
+    float: none;
+    color: #63717f;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul.navegador{
+    margin:10px;
+    padding:130px ;
+}
+
+ul.navegador li{
+    display:inline-block;
+    padding:0 20px;
+    background-color: #fffbeb;
+    padding: 5px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+}
+
+ul.navegador a:hover{
+    background-color: #ebecf0;
+    color: #AA5500;
+}
+
+ul.nav{
+    margin:0px;
+    padding:1px ;
+}
+
+ul.nav li{
+    display:inline-block;
+    background-color: #fffbeb;
+    padding: 5px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+}
+
+ul.nav a:hover{
+    background-color: #ebecf0;
+    color: #AA5500;
+}
+
+.foto2 {
+    padding: 0em;
+    margin: 0em 0 2em 12em;
+    width: 100px;
+}
+.foto2 img {
+    position: absolute;
+    top:  180px;
+    left: 200px;
+}
+
+
+div.foto2 p{
+    font-size:x-large;
+    color: #8A9FFF;
+}
+.derecha   { float:left;border: 5px solid tomato; background-color: darkred;margin-left: 100px}
+.izquierda { float: left;border: 10px solid #CCC;background-color:blue; margin-left: 100px}

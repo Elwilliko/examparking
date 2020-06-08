@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="agregar.css" type="text/css"/>
+    <script src = "../../../Ajax/validacion.js"></script>
+
+
+</head>
+<body>
+
+
+<section class="sectionContenido">
+    <h2 hidden> CONTENIDO </h2>
+
+    <form id = "formulario" method="POST" action="../controlador/datosUsuario.php">
+        <fieldset>
+            <div class="logo">
+                <img src="../../../images/p1.jpg" alt="imagen 10">
+            </div>
+            <legend> Registro Cliente</legend>
+            <label class="labelCedula"> Cédula* </label><br>
+            <input type="text" id="cedula" name="cedula"><br>
+            <span id="datoPlaca"></span><br>
+            <label class="labelPlaca"> Placa* </label><br>
+            <input type="text" id="placa" name="placa"><br>
+            <span id="datoMarca"></span><br>
+            <label class="labelMarca"> Marca* </label><br>
+            <input type="text" id="marca" name="marca"><br>
+            <span id="datoModelo"></span><br>
+            <label class="labelModelo"> Modelo* </label><br>
+            <input type="text" id="modelo" name="modelo"><br>
+            <span id="datoApellido"></span><br>
+            <label class="labelContacto"> Número*</label><br>
+            <input type="text" id="numero" name="numero"><br>
+            <span id="datoFecha"></span><br>
+            <label class="labelFecha"> Fecha de Ingreso* </label><br>
+            <input type="date" id="fecha" name="fecha"><br>
+            <span id="datoContacto"></span><br>
+            <label class="labelContacto"> Hora de Ingreso* </label><br>
+            <input type="time" id="hora" name="hora"><br>
+            <input type = "submit" id = "botonContacto1"  value="Crear"  name = "crear">
+        </fieldset>
+    </form>
+</section>
+
+    <section>
+        <div class = "divNav">
+            <nav class="navegar">
+                <ul class = "list">
+                    <li><a href= "../../../index.html">Inicio </a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+</body>
+</html>
